@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Peachi Black';
+    src: url('fonts/peachi-black-webfont.woff2') format('woff2'),
+        url('fonts/peachi-black-webfont.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'Peachi Bold';
+    src: url('peachi-bold-webfont.woff2') format('woff2'),
+        url('peachi-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Peachi Light';
+    src: url('peachi-light-webfont.woff2') format('woff2'),
+        url('peachi-light-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Peachi Medium';
+    src: url('peachi-medium-webfont.woff2') format('woff2'),
+        url('peachi-medium-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Peachi Regular';
+    src: url('peachi-regular-webfont.woff2') format('woff2'),
+        url('peachi-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Peachi Thin';
+    src: url('peachi-thin-webfont.woff2') format('woff2'),
+        url('peachi-thin-webfont.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('/fonts/lexenddeca-regular-webfont.woff2') format('woff2'),
+        url('/fonts/lexenddeca-regular-webfont.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'Vintage Goods';
+    src: url('fonts/vintage-goods-webfont.woff2') format('woff2'),
+        url('fonts/vintage-goods-webfont.woff') format('woff');
+
+}
+
+body {
+    background-color: #FFFAF5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+    gap: 44px;
+    position: absolute;
+    height: 140px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #5D2C1C;
+}
+
+.logo_main {
+    max-width: 400px;
+}
+
+.navmain {
+    list-style: none;
+    font: 26px 'Peachi Medium', arial, helvetica;
+    color: #FFFAF5;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 54px;
+}
+
+.linen_button {
+    background: #FFFAF5;
+    border-radius: 15px;
+    padding: 8px 20px;
+    font: 26px 'Peachi Medium', arial, helvetica;
+    color: #5D2C1C;
+    border: none;
+}
+
+.linen_button:hover {
+    transform: translateY(2px);
+    background: var();
+}
+
+.hero_cover {
+    position: absolute;
+    width: 100vw;
+    height: 700px;
+    left: 0px;
+    top: 140px;
+    background: url(ashley-white-background.png);
+    background-size: cover;
+}
+
+.main_heading {
+    position: absolute;
+    width: 696px;
+    height: 97px;
+    left: 102px;
+    top: 200px;
+    font-family: 'Peachi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 97px;
+    color: #5D2C1C;
+
+}
+
+.intro_paragraph {
+    position: absolute;
+    width: 684px;
+    height: 89px;
+    left: 102px;
+    top: 300px;
+    font-family: 'Lexend Deca', arial, helvetica;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+}
